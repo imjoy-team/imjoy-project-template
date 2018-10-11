@@ -1,11 +1,11 @@
-﻿
+
 <docs lang="markdown">
-Describe your plugin here.
+ImJoy template plugin.
 </docs>
 
 <config lang="json">
 {
-  "name": "Untitled Plugin",
+  "name": "Template plugin",
   "mode": "pyworker",
   "version": "0.1.0",
   "api_version": "0.1.1",
@@ -26,10 +26,11 @@ Describe your plugin here.
 import numpy as np
 class PythonPlugin():
     def setup(self):
-        print('setup in python')
+        print('== Initializing ImJoy Template Plugin')
 
     def run(self, my):
-        print('hello world.')
+        print('This is the ImJoy template plugin running on the Python backend & performing complex tasks')
+        print('1+1={}'.format(1+1))
         return my
 
 api.export(PythonPlugin())
