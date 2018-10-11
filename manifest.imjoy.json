@@ -1,0 +1,25 @@
+{
+ "name": "ImJoy Repository",
+ "description": "",
+ "version": "0.2.0",
+ "uri_root": "https://raw.githubusercontent.com/oeway/ImJoy-project-template/master/repository",
+ "plugins": [
+   {
+    "name": "Untitled Plugin",
+    "mode": "pyworker",
+    "version": "0.1.0",
+    "api_version": "0.1.1",
+    "description": "describe your plugin here.",
+    "tags": [],
+    "ui": "UI for this plugin",
+    "inputs": null,
+    "outputs": null,
+    "flags": [],
+    "icon": null,
+    "env": null,
+    "requirements": [],
+    "dependencies": [],
+    "uri": "imjoy-plugins/untitledPlugin.imjoy.html"
+  }
+ ]
+}
