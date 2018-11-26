@@ -2,7 +2,7 @@
  "name": "ImJoy Repository",
  "description": "",
  "version": "0.2.0",
- "uri_root": "https://raw.githubusercontent.com/oeway/ImJoy-project-template/master/repository",
+ "uri_root": "/repository",
  "plugins": [
    {
     "name": "Untitled Plugin",
