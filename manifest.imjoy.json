@@ -2,7 +2,7 @@
  "name": "Project Template",
  "description": "",
  "version": "0.2.0",
- "uri_root": "/imjoy-plugins",
+ "uri_root": "",
  "plugins": [
    {
     "name": "Untitled Plugin",
@@ -19,7 +19,7 @@
     "env": null,
     "requirements": [],
     "dependencies": [],
-    "uri": "untitledPlugin.imjoy.html"
+    "uri": "imjoy-plugins/untitledPlugin.imjoy.html"
   }
  ]
 }
