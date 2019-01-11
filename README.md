@@ -1,4 +1,4 @@
-# ImJoy project template
+# ImJoy Project Template
 This is a template for project layout we propose for projects supporting ImJoy plugins. The overall organization is standard and your code can very well be use without ImJoy. Two additional elements allow the direct use with ImJoy:
 
 0. Folder **`imjoy-plugins`**: contains the ImJoy plugin files (extension 'imjoy.html'). 
