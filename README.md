@@ -1,5 +1,12 @@
 # ImJoy Project Template
-This is a template for project layout we propose for projects supporting ImJoy plugins. The overall organization is standard and your code can very well be use without ImJoy. Two additional elements allow the direct use with ImJoy:
+
+This is a template for project layout we propose for projects supporting ImJoy plugins. The overall organization is standard and your code can very well be use without ImJoy. 
+
+
+[Click here](https://imjoy.io/#/app?repo=imjoy-team/imjoy-project-template) to use this repo in ImJoy.
+
+
+Additonal information for the files:
 
 1. File **`manifest.imjoy.json`**: specifies how your ImJoy plugins will be shown in the ImJoy plugin import menu
 
