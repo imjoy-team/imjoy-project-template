@@ -1,8 +1,21 @@
 # ImJoy Project Template
 This is a template for project layout we propose for projects supporting ImJoy plugins. The overall organization is standard and your code can very well be use without ImJoy. Two additional elements allow the direct use with ImJoy:
 
-0. Folder **`imjoy-plugins`**: contains the ImJoy plugin files (extension 'imjoy.html'). 
 1. File **`manifest.imjoy.json`**: specifies how your ImJoy plugins will be shown in the ImJoy plugin import menu
+
+1. Folder **`src`**: your ImJoy plugin files along with other related source code.
+
+1. File **`src/update_manifest.js`** a script for updating the plugin manifest file `manifest.imjoy.json`, this generated file will be read by ImJoy.
+
+
+## After adding a new plugin
+
+You can place your imjoy plugin file (`*.imjoy.html`) in any folder organization, once added, please run `node src/update_manifest.js` to update the plugin list.
+
+Note: in order to run the command, you need to install [nodejs](https://nodejs.org/).
+
+You can also setup a CI (e.g. Github Actions) to do this for every new commit.
+
 
 ## Creating url to automatically install your plugins
 The ImJoy plugin files can be used to [generate a url](http://imjoy.io/docs/index.html#/development?id=distributing-your-plugin-with-url) which automatically opens ImJoy and installs your plugin with all dependencies. 

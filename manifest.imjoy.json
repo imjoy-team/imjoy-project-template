@@ -1,6 +1,6 @@
 {
  "name": "Project Template",
- "description": "ImJoy plugin repository.",
+ "description": "A template for ImJoy plugin Project.",
  "version": "0.2.0",
  "uri_root": "",
  "plugins": [
